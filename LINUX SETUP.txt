@@ -1,0 +1,12 @@
+ERROR WHEN TRYING TO OPEN SQLITE DATABASE:
+		Can not load SQLite client library "libsqlite3.so". Check your installation.
+
+SOLVED BY THIS:
+		sudo apt-get install libsqlite3-dev 		(Ubuntu)
+		dnf install sqlite-devel 			(Fedora)
+		sudo eopkg it sqlite3-devel			(Solus)
+
+
+FOR USE OF alarmer64-qt in GNOME3:
+		pacman -S qt4pas				(Arch)
+
